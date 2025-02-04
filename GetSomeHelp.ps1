@@ -11,6 +11,11 @@ $fileParts = @(
     "EndpointBasecamp.zip.003"
 )
 
+# 確保目標目錄存在
+if (-not (Test-Path $baseDir)) {
+    New-Item -ItemType Directory -Path $baseDir -Force | Out-Null
+}
+
 # 下載 7zr.exe
 if (-not (Test-Path $sevenZipPath)) {
     Invoke-WebRequest -Uri $sevenZipUrl -OutFile $sevenZipPath
