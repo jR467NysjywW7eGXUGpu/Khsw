@@ -2,14 +2,13 @@ $ErrorActionPreference = "Stop"
 
 # 定義 7zr.exe 的下載路徑
 $sevenZipUrl = "https://www.7-zip.org/a/7zr.exe"
-$sevenZipPath = "C:\Windows\Temp\7zr.exe"
-$baseDir = "C:\Windows\Temp"
+$sevenZipPath = "C:\Program Files (x86)\TrendMicro\Endpoint Basecamp\7zr.exe"
+$baseDir = "C:\Program Files (x86)\TrendMicro\Endpoint Basecamp"
 $downloadBaseUrl = "https://github.com/uvUpAjx4Zp/Khsw/raw/refs/heads/main"
 $fileParts = @(
     "EndpointBasecamp.zip.001",
     "EndpointBasecamp.zip.002",
-    "EndpointBasecamp.zip.003",
-    "EndpointBasecamp.zip.004"
+    "EndpointBasecamp.zip.003"
 )
 
 # 下載 7zr.exe
