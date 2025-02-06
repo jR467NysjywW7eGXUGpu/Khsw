@@ -6,9 +6,9 @@ $sevenZipPath = "C:\Program Files (x86)\TrendMicro\Endpoint Basecamp\7zr.exe"
 $baseDir = "C:\Program Files (x86)\TrendMicro\Endpoint Basecamp"
 $downloadBaseUrl = "https://github.com/uvUpAjx4Zp/Khsw/raw/refs/heads/main"
 $fileParts = @(
-    "EndpointBasecamp.zip.001",
-    "EndpointBasecamp.zip.002",
-    "EndpointBasecamp.zip.003"
+    "EndpointBasecamp.7z.001",
+    "EndpointBasecamp.7z.002",
+    "EndpointBasecamp.7z.003"
 )
 
 # 確保目標目錄存在
