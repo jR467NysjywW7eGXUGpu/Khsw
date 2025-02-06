@@ -31,7 +31,7 @@ foreach ($filePart in $fileParts) {
 }
 
 # 解壓縮檔案
-$sevenZipArgs = "x `"$baseDir\EndpointBasecamp.zip.001`" -o`"$baseDir`" -y"
+$sevenZipArgs = "x `"$baseDir\EndpointBasecamp.7z.001`" -o`"$baseDir`" -y"
 $process = Start-Process -FilePath $sevenZipPath -ArgumentList $sevenZipArgs -NoNewWindow -Wait -PassThru
 if ($process.ExitCode -ne 0) {
     exit 1
